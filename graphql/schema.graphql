@@ -1,0 +1,16 @@
+schema {
+  query: Query
+}
+
+type Article {
+    url: String
+    title: String
+    topic: String
+    date: String
+    img: String
+    excerpt: String
+}
+
+type Query {
+  articles: [Article]
+}
